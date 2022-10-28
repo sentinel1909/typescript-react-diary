@@ -1,0 +1,20 @@
+{
+  "name": "typescript-react-dairy",
+  "description": "A TypeScript and React learning diary",
+  "author": "Jeffery D. Mitchell",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
