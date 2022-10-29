@@ -14,7 +14,7 @@ function Content({ currentDate }: { currentDate: string }) {
   return (
     <main>
       <section>
-        <h2>This is the content area</h2>
+        <h2>Site Progress:</h2>
         <p>Today is: {currentDate} </p>
         {entriesList}
       </section>

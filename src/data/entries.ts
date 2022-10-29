@@ -6,7 +6,7 @@ const entries = [
     date: "2022-10-28",
     title: "Starting Up",
     story:
-      "I&apos;ve spun up this site as a means of writing down my journey to learn TypeScript and React. I learn by doing.",
+      "I've spun up this site as a means of writing down my journey to learn TypeScript and React. I learn by doing.",
   },
   {
     id: 2,
