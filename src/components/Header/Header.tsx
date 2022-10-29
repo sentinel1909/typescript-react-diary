@@ -3,7 +3,7 @@
 function Header() {
   return (
     <header>
-      <h1>Typescript Learning Diary</h1>
+      <h1>TypeScript Learning Diary</h1>
     </header>
   );
 }

@@ -1,21 +1,11 @@
 // content.tsx
 
-const entries = [
-  {
-    id: 1,
-    title: "Test",
-    story: "This is a test.",
-  },
-  {
-    id: 1,
-    title: "Test 2",
-    story: "This is test 2.",
-  },
-];
+import entries from "../../data/entries";
 
 const entriesList = entries.map((entry) => (
   <article>
     <h3>{entry.title}</h3>
+    <h4>{entry.date}</h4>
     <p>{entry.story}</p>
   </article>
 ));
