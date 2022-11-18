@@ -3,7 +3,7 @@
 import entries from "../../data/entries";
 
 const entriesList = entries.map((entry) => (
-  <article>
+  <article key={entry.id}>
     <h3>{entry.title}</h3>
     <h4>{entry.date}</h4>
     <p>{entry.story}</p>
@@ -13,7 +13,7 @@ const entriesList = entries.map((entry) => (
 function Content() {
   return (
     <main>
-      <section>{entriesList}</section>
+      <section className="container">{entriesList}</section>
     </main>
   );
 }
