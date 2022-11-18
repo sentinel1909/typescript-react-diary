@@ -22,6 +22,13 @@ const entries = [
     story:
       "Site has been quiet for a bit. Returned to it today and managed to get a layout setup using plain 'ol CSS. In addition to talking about TypeScript, I will also try to use this site as a means of gaining confidence creating responsive layouts with CSS.",
   },
+  {
+    id: 4,
+    date: "2022-11-18",
+    title: "TypeScript Converts to JavaScript",
+    story:
+      "TypeScript code converts to JavaScript, which runs anywhere JavaScript runs: In a browser, on Node.js or Deno and in your apps.",
+  },
 ];
 
 export default entries;

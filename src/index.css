@@ -44,6 +44,7 @@ body {
   /* base measurements */
 
   --max-width-container: 80rem;
+  --max-height-container: 20rem;
   --pad: clamp(0.5em, min(2vw, 4vh), 4em);
 }
 
@@ -161,7 +162,7 @@ h1 {
   line-height: 2;
 }
 
-.container {
+.uppercontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -172,7 +173,7 @@ h1 {
   background-color: var(--colour-container-bg);
 }
 
-.container > article {
+.uppercontainer > article {
   flex-grow: 0;
   display: flex;
   flex-direction: column;
@@ -181,4 +182,22 @@ h1 {
   padding: 2rem var(--pad);
   background-color: var(--colour-card-bg);
   box-shadow: 10px 10px;
+}
+
+.lowercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: var(--max-height-container);
+  max-width: var(--max-width-container);
+  margin: 4em auto;
+  padding: 1rem var(--pad);
+  background-color: var(--colour-container-bg);
+}
+
+/* media query - kicks in below 420 pixels */
+@media (max-width: 420px) {
+  .uppercontainer > article {
+    width: 10em;
+  }
 }

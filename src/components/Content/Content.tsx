@@ -13,7 +13,13 @@ const entriesList = entries.map((entry) => (
 function Content() {
   return (
     <main>
-      <section className="container">{entriesList}</section>
+      <section className="uppercontainer">{entriesList}</section>
+      <section className="lowercontainer">
+        <article>
+          <h3>This is a Another Container</h3>
+          <p>More words coming soon...</p>
+        </article>
+      </section>
     </main>
   );
 }
