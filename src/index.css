@@ -1,0 +1,116 @@
+/* site-wide CSS variables */
+
+body {
+  /* base colours */
+  --hue-primary: 0;
+  --sat-primary: 0%;
+  --luma-main-bg: 50%;
+  --luma-flowText: 100%;
+
+  --colour-main-bg: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-main-bg)
+  );
+
+  --colour-flowText: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-flowText)
+  );
+
+  /* base measurements */
+
+  --maxWidth-constrain: 80rem;
+  --pad: 0.25em;
+}
+
+/* begin browser reset */
+
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+fieldset,
+caption,
+table,
+tr,
+td,
+th,
+address,
+blockquote,
+img {
+  margin: 0;
+  padding: 0;
+}
+img,
+fieldset,
+object {
+  border: none;
+}
+*,
+*:after,
+*:before {
+  flex: 1 0 auto; /* safari bugfix */
+  box-sizing: border-box;
+}
+button,
+label {
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+}
+
+/* end browser reset */
+
+/* turn off visibility of hr element */
+
+hr {
+  display: none;
+}
+
+/* set main flow font */
+
+body,
+button,
+input,
+table,
+textarea,
+select {
+  font: normal 1em/1.5 "poppins", arial, helvetica, sans-serif;
+}
+
+/* unify focus style */
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* begin main styles */
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  background: var(--colour-main-bg);
+  color: var(--colour-flowText);
+}

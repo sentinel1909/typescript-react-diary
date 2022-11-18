@@ -10,14 +10,10 @@ const entriesList = entries.map((entry) => (
   </article>
 ));
 
-function Content({ currentDate }: { currentDate: string }) {
+function Content() {
   return (
     <main>
-      <section>
-        <h2>Site Progress:</h2>
-        <p>Today is: {currentDate} </p>
-        {entriesList}
-      </section>
+      <section>{entriesList}</section>
     </main>
   );
 }

@@ -12,8 +12,8 @@ function App() {
   let todayDate: string = today.toLocaleString().split(",")[0];
   return (
     <>
-      <Header />
-      <Content currentDate={todayDate} />
+      <Header currentDate={todayDate} />
+      <Content />
       <Footer copyrightYear={year} />
     </>
   );

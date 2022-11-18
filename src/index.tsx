@@ -1,6 +1,8 @@
 // index.tsx
 // This is the entry point for React.
 
+import "./index.css";
+
 import { createRoot } from "react-dom/client";
 
 import App from "./components/App/App";
