@@ -1,5 +1,5 @@
-# The TypeScript Diary
+# jeff-mitchell-dev
 
-## ...and the React Diary
+## my official development web site...built with Parcel, TypeScript and React
 
-Welcome to my sort of on-line learning diary for my noodling with TypeScript and React. As I figure things out, it will be built into this app.
+I've morphed what I previously referred to as the "typescript-learning-diary" into my portfolio site.
